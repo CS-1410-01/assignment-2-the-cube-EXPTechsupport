@@ -33,7 +33,7 @@ public class Cube {
 
 class edgedFace{
   public int current_face;
-  int[] edge1 = new int[4];// 0 is face 1 - 3 are the elments 
+  int[] edge1 = new int[4];// 0 is face 1 - 3 are the elments  of the face
   int[] edge2 = new int[4];
   int[] edge3 = new int[4];
   int[] edge4 = new int[4];
@@ -64,14 +64,109 @@ class edgedFace{
       edge4[3] = 8;
       break;
       case 1:
+      edge1[0] = 1;
+      edge1[1] = 2;
+      edge1[2] = 5;
+      edge1[3] = 8;
+
+      edge2[0] = 4;
+      edge2[1] = 2;
+      edge2[2] = 5;
+      edge2[3] = 8;
+
+      edge3[0] = 3;
+      edge3[1] = 0;
+      edge3[2] = 3;
+      edge3[3] = 6;
+
+      edge4[0] = 5;
+      edge4[1] = 2;
+      edge4[2] = 5;
+      edge4[3] = 8;
       break;
       case 2:
+      edge1[0] = 1;
+      edge1[1] = 2;
+      edge1[2] = 5;
+      edge1[3] = 8;
+
+      edge2[0] = 4;
+      edge2[1] = 2;
+      edge2[2] = 5;
+      edge2[3] = 8;
+
+      edge3[0] = 3;
+      edge3[1] = 0;
+      edge3[2] = 3;
+      edge3[3] = 6;
+
+      edge4[0] = 5;
+      edge4[1] = 2;
+      edge4[2] = 5;
+      edge4[3] = 8;
       break;
       case 3:
+      edge1[0] = 1;
+      edge1[1] = 2;
+      edge1[2] = 5;
+      edge1[3] = 8;
+
+      edge2[0] = 4;
+      edge2[1] = 2;
+      edge2[2] = 5;
+      edge2[3] = 8;
+
+      edge3[0] = 3;
+      edge3[1] = 0;
+      edge3[2] = 3;
+      edge3[3] = 6;
+
+      edge4[0] = 5;
+      edge4[1] = 2;
+      edge4[2] = 5;
+      edge4[3] = 8;
       break;
       case 4:
+      edge1[0] = 1;
+      edge1[1] = 2;
+      edge1[2] = 5;
+      edge1[3] = 8;
+
+      edge2[0] = 4;
+      edge2[1] = 2;
+      edge2[2] = 5;
+      edge2[3] = 8;
+
+      edge3[0] = 3;
+      edge3[1] = 0;
+      edge3[2] = 3;
+      edge3[3] = 6;
+
+      edge4[0] = 5;
+      edge4[1] = 2;
+      edge4[2] = 5;
+      edge4[3] = 8;
       break;
       case 5:
+      edge1[0] = 1;
+      edge1[1] = 2;
+      edge1[2] = 5;
+      edge1[3] = 8;
+
+      edge2[0] = 4;
+      edge2[1] = 2;
+      edge2[2] = 5;
+      edge2[3] = 8;
+
+      edge3[0] = 3;
+      edge3[1] = 0;
+      edge3[2] = 3;
+      edge3[3] = 6;
+
+      edge4[0] = 5;
+      edge4[1] = 2;
+      edge4[2] = 5;
+      edge4[3] = 8;
       break;
       default:
       break;
